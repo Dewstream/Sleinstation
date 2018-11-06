@@ -557,3 +557,9 @@
 	icon_state = "bedsheet"
 	user_vars_to_edit = list("name" = "Spooky Ghost", "real_name" = "Spooky Ghost" , "incorporeal_move" = INCORPOREAL_MOVE_BASIC, "appearance_flags" = KEEP_TOGETHER|TILE_BOUND, "alpha" = 150)
 	alternate_worn_layer = ABOVE_BODY_FRONT_LAYER //so the bedsheet goes over everything but fire
+/obj/item/clothing/suit/raincoat
+	name = "Raincoat"
+	desc = "Do you like Huey Lewis and the News?"
+	icon_state = "raincoat"
+	body_parts_covered = ARMS|LEGS|CHEST //transparent
+	allowed = list (/obj/item/weapon/twohanded/fireaxe)
